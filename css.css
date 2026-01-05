@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ 
+*{
+  margin: 0;
+}
+
+ body{
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+.nav-bar {
+  background: linear-gradient(to bottom,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: right;
+  }
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-bar a {
+  color: #43352D;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+main {
+  margin-top: 68px;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(../images/back.png);
+  background-size: cover;
+  color: #43352D;
+  min-height: 20vh;
+  padding-left: 65px;
+}
+
+.main-txt {
+  font-size: 1.5rem;
+}
+
+.btn {
+    margin-top: 100px;
+}
+
+#about a {
+  background: linear-gradient(to bottom,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%);
+  text-decoration: none;
+  color: #43352D;
+  padding: 10 px 20px;
+}
+
+
+#skills {
+  background: linear-gradient(to top,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%)
+}
+
+#skills h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+border: 3px solid #43352D;
+}
+
+.head-row {
+  background: linear-gradient(to bottom,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%);
+  color: #43352D;
+}
+
+td {
+  padding: 10px;
+}
+
+#Contact-block {
+background: linear-gradient(to bottom,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%);
+color: #43352D;
+}
+
+#Contact-block h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: auto;
+  padding: 50px;
+}
+
+#Contact-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form-item input {
+  block-size: 20px;
+}
+
+.form-item input,
+.form-item textarea {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #43352D;
+  border-width: 3px;
+  margin: 10px;
+  width: 150%;
+  }
+
+.form-item button {
+  background: linear-gradient(to bottom,  rgb(224,243,250) 0%,rgb(194,173,154) 0%,rgb(170,188,178) 100%);
+  border: 0;
+  color: #43352D;
+  border-radius: 5px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  padding: 5px 20px;
+
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  
+}
+
+footer img {
+  width: 20%;
+  
+}
